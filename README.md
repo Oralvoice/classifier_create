@@ -8,5 +8,8 @@ evaluate.pyでは作成した分類器を使用して評価結果を確認する
 # 実行環境
 Windows10 <br>
 Python 3.7.8 <br>
+librosa 0.80 <br>
+matplotlib 3.3.2 <br>
+numpy 1.19.2 <br>
 
 # インストール方法
