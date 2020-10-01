@@ -6,7 +6,7 @@ cnn.pyでは畳み込みニューラルネットワーク(CNN)で分類器(学�
 evaluate.pyでは作成した分類器を使用して評価結果を確認する。<br>
 
 # 実行環境
-Windows10
-Python3.7.8
+Windows10 <br>
+Python3.7.8 <br>
 
 # インストール方法
