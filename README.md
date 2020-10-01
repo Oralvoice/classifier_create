@@ -7,6 +7,6 @@ evaluate.pyでは作成した分類器を使用して評価結果を確認する
 
 # 実行環境
 Windows10 <br>
-Python3.7.8 <br>
+Python 3.7.8 <br>
 
 # インストール方法
