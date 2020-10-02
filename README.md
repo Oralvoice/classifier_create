@@ -27,7 +27,7 @@ pip3 install tensorflow==2.2.1 <br>
 pip3 install scikit-learn <br>
 
 # 処理の流れ
-ファイルのパスは任意のパスに変更して実行してください。
+ファイルのパスは任意のパスに変更して実行してください。<br>
 Ⅰ. classifier_createフォルダを任意のフォルダにコピーする。コピーしたフォルダの中に「data」と「classifier」という名前のフォルダを作成して「data」にcreate_data.pyとaugment_data.pyを移動し、「classifier」にcnn.pyとevaluate.pyを移動する。<br>
 
 Ⅱ. FFmpegからzip形式ファイルをダウンロードして解凍する。解凍後にbinフォルダの中からffmpeg.exeを「data」に移動する。<br>
