@@ -24,7 +24,7 @@ pip3 install matplotlib <br>
 pip3 install numpy <br>
 pip3 install keras <br>
 pip3 install tensorflow==2.2.1 <br>
-pip3 install scikit-learn <b
+pip3 install scikit-learn <br>
 
 # 処理の流れ
 ファイルのパスは任意のパスに変更して実行してください。
@@ -34,9 +34,10 @@ pip3 install scikit-learn <b
 
 Ⅲ. 「data」の中に「audio」,「melspectrogram」,「video」,「wav」という名前のフォルダを作成して「video」の中に動画入れる。<br>
 
-Ⅳ. create_data.pyを実行すると「audio」に音声ファイル(wav)、「melspectrogram」に学習させる画像(メルスペクトログラム)が保存される。<br>
+Ⅳ. create_data.pyを実行すると「audio」に音声ファイル、「melspectrogram」に学習させる画像(メルスペクトログラム)が保存される。<br>
 
-Ⅴ. 「classifier」の中の「ラベル」に「positive」と「negative」と「テストデータ」という名前のフォルダが作成され、「positive」には「単語名」のフォルダがある。その中に正解画像が保存される。また、「negative」には不正解画像が保存され、「テストデータ」には評価用の画像が保存される。<br>
+Ⅴ. 「classifier」の中の「ラベル」に「positive」と「negative」と「テストデータ」という名前のフォルダが作成され、「positive」には「単語名」のフォルダがある。その中に正解画像が保存される。
+また、「negative」には不正解画像が保存され、「テストデータ」には評価用の画像が保存される。<br>
 
 Ⅵ. augment_data.pyを実行すると「classifier/ラベル/positive」にデータ拡張した正解画像が、「classifier/ラベルnegative」にデータ拡張した不正解画像が保存される。<br>
 
