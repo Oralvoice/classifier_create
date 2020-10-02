@@ -16,7 +16,7 @@ tensorflow 2.2.1 <br>
 
 # インストール方法
 [python3.7.8](https://www.python.org/downloads/release/python-378/)<br>
-[FFmpeg](FFmpeg Builds – Builds – Zeranoe FFmpeg)
+[FFmpeg](https://www.ffmpeg.org/)
 
 以下をコマンドプロンプトで実行する。
 pip3 install librosa <br>
@@ -27,6 +27,7 @@ pip3 install tensorflow==2.2.1 <br>
 pip3 install scikit-learn <b
 
 # 処理の流れ
+ファイルのパスは任意のパスに変更して実行してください。
 Ⅰ. classifier_createフォルダを任意のフォルダにコピーする。コピーしたフォルダの中に「data」と「classifier」という名前のフォルダを作成して「data」にcreate_data.pyとaugment_data.pyを移動し、「classifier」にcnn.pyとevaluate.pyを移動する。<br>
 
 Ⅱ. FFmpegからzip形式ファイルをダウンロードして解凍する。解凍後にbinフォルダの中からffmpeg.exeを「data」に移動する。<br>
