@@ -13,3 +13,4 @@ matplotlib 3.3.2 <br>
 numpy 1.19.2 <br>
 
 # インストール方法
+https://www.python.org/downloads/release/python-378/ <br>
